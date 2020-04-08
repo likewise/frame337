@@ -105,7 +105,7 @@ int main (int argc, char *argv [])
 	short scratch_short;
 	char *in_fname = NULL;
 	char *out_fname = NULL;
-	char errstr[64];				/* string for error message */				
+	char errstr[96];				/* string for error message */				
 	uint16_t altbuf [BUFWORDSIZE];			/* Alternate buffer for 2/3 alignment */
 	int verbose = 0;				/* print progress messages */
 
